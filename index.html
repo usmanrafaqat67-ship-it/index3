@@ -1335,6 +1335,30 @@
       text-align: center; 
     }
   }
+  @media (max-width: 800px) {
+    nav { 
+      padding: 0 15px; 
+    }
+    .nav-links { 
+      display: none;  
+    }
+    .dash-grid { 
+      grid-template-columns: 1fr; 
+    }
+    .panel-wide { 
+      grid-column: span 1; 
+    }
+    .metrics-row { 
+      grid-template-columns: repeat(2, 1fr); 
+    }
+    .section-wrap { 
+      padding: 60px 10px; 
+    }
+    footer { 
+      flex-direction: column; 
+      text-align: center; 
+    }
+  }
 </style>
 </head>
 <body>
